@@ -96,7 +96,7 @@ A real verdict looks like:
   Unauthorized action: payment.execute
   Verdict: V1 authority expansion + V2 confused deputy
 
-Repo: https://github.com/sergeyizmailov/DelegationBench (v0.6.0, on PyPI).
+Repo: https://github.com/slilbudget/DelegationBench (v0.6.0, on PyPI).
 There is a clean-room ROMA adapter (src/delegationbench/adapters/roma.py) that
 observes task trees and tool calls through public runtime interfaces only.
 
@@ -134,7 +134,7 @@ Would you run this in CI? What execution data could your framework expose
 that we currently cannot see? What report format (JSON/JUnit/SARIF) would you
 actually consume?
 
-https://github.com/sergeyizmailov/delegationbench
+https://github.com/slilbudget/delegationbench
 ```
 
 ### AI security engineers / red teams (OWASP ASI, ATR)
@@ -157,7 +157,7 @@ useful to a red team? 30 seconds to try:
 
   pip install delegationbench && delegationbench run scenarios/
 
-https://github.com/sergeyizmailov/delegationbench
+https://github.com/slilbudget/delegationbench
 ```
 
 ## Responses
@@ -173,13 +173,13 @@ https://github.com/sergeyizmailov/delegationbench
   the SARIF schema and defense-baseline contract defects fixed in v0.4.5.
 - Workflow/CI answer: conditional pending those fixes and custom scenarios for
   the respondent's own topology.
-- Evidence: [validation issue #20](https://github.com/sergeyizmailov/DelegationBench/issues/20)
-  and its [live CI follow-up](https://github.com/sergeyizmailov/DelegationBench/issues/20#issuecomment-5064912770).
+- Evidence: [validation issue #20](https://github.com/slilbudget/DelegationBench/issues/20)
+  and its [live CI follow-up](https://github.com/slilbudget/DelegationBench/issues/20#issuecomment-5064912770).
 - Follow-up: the reviewer reran the same downstream CI integration against
   v0.4.5 and independently confirmed the SARIF upload, baseline-contract, and
   signing-key fixes. The final assessment is **Yes** for the documented CI
   use case. See the
-  [verification comment](https://github.com/sergeyizmailov/DelegationBench/issues/20#issuecomment-5065190494).
+  [verification comment](https://github.com/slilbudget/DelegationBench/issues/20#issuecomment-5065190494).
 
 ### 2026-07-24 — @wodastoks-source
 
@@ -189,7 +189,7 @@ https://github.com/sergeyizmailov/delegationbench
   integration tests, and all three machine-report formats.
 - Workflow/CI answer: conditional; interested in the SARIF path for a
   LangGraph side project, but has not yet integrated a live system.
-- Evidence: [validation issue #21](https://github.com/sergeyizmailov/DelegationBench/issues/21).
+- Evidence: [validation issue #21](https://github.com/slilbudget/DelegationBench/issues/21).
 
 ### 2026-07-24 — @ofareref
 
@@ -201,7 +201,7 @@ https://github.com/sergeyizmailov/delegationbench
 - Workflow/CI answer: **Yes** for the documented CI gate; the reviewer
   specifically confirmed the exit-code contract, JUnit, SARIF, and benchmark
   JSON fit an existing platform/DevOps workflow.
-- Evidence: [validation issue #24](https://github.com/sergeyizmailov/DelegationBench/issues/24).
+- Evidence: [validation issue #24](https://github.com/slilbudget/DelegationBench/issues/24).
 
 Current count: **3 public reproductions**. One downstream GitHub Actions
 repository is public, and two reviewers explicitly confirmed the documented

@@ -73,5 +73,5 @@ work needed for a stable release.
 The most useful contributions are new attack scenarios with benign twins,
 framework trace fixtures, and reproducible oracle or defense findings. See
 [CONTRIBUTING.md](CONTRIBUTING.md) and open an
-[Idea discussion](https://github.com/sergeyizmailov/DelegationBench/discussions/categories/ideas)
+[Idea discussion](https://github.com/slilbudget/DelegationBench/discussions/categories/ideas)
 before starting a large change.

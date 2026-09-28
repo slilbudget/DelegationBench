@@ -14,7 +14,7 @@ Create a Trusted Publisher for the existing `delegationbench` project at
 | Field | Value |
 |---|---|
 | PyPI project | `delegationbench` |
-| GitHub owner | `sergeyizmailov` |
+| GitHub owner | `slilbudget` |
 | Repository | `DelegationBench` |
 | Workflow | `publish-pypi.yml` |
 | Environment | `pypi` |
@@ -40,7 +40,7 @@ API token used for this project.
 7. Verify provenance and install from the public PyPI index:
 
    ```bash
-   gh attestation verify --repo sergeyizmailov/DelegationBench \
+   gh attestation verify --repo slilbudget/DelegationBench \
      delegationbench-X.Y.Z-py3-none-any.whl
    pip install --no-cache-dir delegationbench==X.Y.Z
    delegationbench run scenarios/ --defense envelope

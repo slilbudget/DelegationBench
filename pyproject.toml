@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
-authors = [{name = "sergeyizmailov"}]
+authors = [{name = "slilbudget"}]
 keywords = ["agent-security", "llm-security", "multi-agent", "red-teaming",
             "privilege-escalation", "confused-deputy", "fuzzing", "benchmark"]
 classifiers = [
@@ -31,10 +31,10 @@ classifiers = [
 dependencies = ["PyYAML>=6.0"]
 
 [project.urls]
-Homepage = "https://github.com/sergeyizmailov/DelegationBench"
-Repository = "https://github.com/sergeyizmailov/DelegationBench"
-Issues = "https://github.com/sergeyizmailov/DelegationBench/issues"
-Changelog = "https://github.com/sergeyizmailov/DelegationBench/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/slilbudget/DelegationBench"
+Repository = "https://github.com/slilbudget/DelegationBench"
+Issues = "https://github.com/slilbudget/DelegationBench/issues"
+Changelog = "https://github.com/slilbudget/DelegationBench/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 # Optional framework adapter. The supported major-version contract is

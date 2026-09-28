@@ -350,7 +350,7 @@ def reports_to_sarif(reports: Iterable[dict],
         "shortDescription": {"text": _RULE_DESCRIPTIONS[kind]},
         "fullDescription": {"text": _RULE_FULL_DESCRIPTIONS[kind]},
         "helpUri": (
-            "https://github.com/sergeyizmailov/DelegationBench/"
+            "https://github.com/slilbudget/DelegationBench/"
             "blob/main/THREAT_MODEL.md"
         ),
         "defaultConfiguration": {"level": "error"},
@@ -365,7 +365,7 @@ def reports_to_sarif(reports: Iterable[dict],
                 "text": "Scenario file failed to load or run",
             },
             "helpUri": (
-                "https://github.com/sergeyizmailov/DelegationBench"
+                "https://github.com/slilbudget/DelegationBench"
             ),
             "defaultConfiguration": {"level": "error"},
         })
@@ -380,7 +380,7 @@ def reports_to_sarif(reports: Iterable[dict],
                     "name": "DelegationBench",
                     "semanticVersion": __version__,
                     "informationUri": (
-                        "https://github.com/sergeyizmailov/DelegationBench"
+                        "https://github.com/slilbudget/DelegationBench"
                     ),
                     "rules": rules,
                     "supportedTaxonomies": [

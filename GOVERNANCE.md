@@ -5,7 +5,7 @@ product. This document describes how changes are reviewed and released.
 
 ## Roles
 
-- **Maintainer** — `sergeyizmailov`. Owns the repository, reviews and merges
+- **Maintainer** — `slilbudget`. Owns the repository, reviews and merges
   pull requests, cuts releases, and holds the security contact.
 - **Contributors** — anyone opening issues or pull requests. Significant
   scenario contributions are credited in the changelog.

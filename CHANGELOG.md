@@ -147,7 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   read-only and write scopes are granted per job only where required
   (release asset upload, SARIF upload, OIDC signing).
 - Fixed the OpenSSF Scorecard badge/viewer URL to use the canonical
-  repository casing (`sergeyizmailov/DelegationBench`).
+  repository casing (`slilbudget/DelegationBench`).
 
 ## [0.4.5] - 2026-07-24
 
@@ -429,16 +429,16 @@ Initial public release.
 - **CI** — GitHub Actions: pytest plus full corpus runs with and without the
   reference defense, on Python 3.10/3.12/3.13.
 
-[Unreleased]: https://github.com/sergeyizmailov/DelegationBench/compare/v0.6.0...HEAD
-[0.6.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.6.0
-[0.5.1]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.5.1
-[0.5.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.5.0
-[0.4.5]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.5
-[0.4.4]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.4
-[0.4.3]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.3
-[0.4.2]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.2
-[0.4.1]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.1
-[0.4.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.4.0
-[0.3.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.3.0
-[0.2.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.2.0
-[0.1.0]: https://github.com/sergeyizmailov/DelegationBench/releases/tag/v0.1.0
+[Unreleased]: https://github.com/slilbudget/DelegationBench/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.6.0
+[0.5.1]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.5.1
+[0.5.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.5.0
+[0.4.5]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.5
+[0.4.4]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.4
+[0.4.3]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.3
+[0.4.2]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.2
+[0.4.1]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.1
+[0.4.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.4.0
+[0.3.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.3.0
+[0.2.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.2.0
+[0.1.0]: https://github.com/slilbudget/DelegationBench/releases/tag/v0.1.0

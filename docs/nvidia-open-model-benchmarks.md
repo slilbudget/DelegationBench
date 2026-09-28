@@ -56,14 +56,14 @@ An owner configures the secret once:
 ```bash
 gh secret set NVIDIA_API_KEY \
   --env benchmarks \
-  --repo sergeyizmailov/DelegationBench
+  --repo slilbudget/DelegationBench
 ```
 
 Then run the workflow from the Actions tab or with:
 
 ```bash
 gh workflow run real-model-benchmarks.yml \
-  --repo sergeyizmailov/DelegationBench \
+  --repo slilbudget/DelegationBench \
   --field runs=10 \
   --field suite=v1-v7
 ```

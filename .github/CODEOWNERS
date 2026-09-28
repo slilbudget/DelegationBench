@@ -1,7 +1,7 @@
 # Default review owner for repository changes.
-* @sergeyizmailov
+* @slilbudget
 
 # Security-sensitive enforcement and CI surfaces.
-/src/delegationbench/defense.py @sergeyizmailov
-/src/delegationbench/oracle.py @sergeyizmailov
-/.github/workflows/ @sergeyizmailov
+/src/delegationbench/defense.py @slilbudget
+/src/delegationbench/oracle.py @slilbudget
+/.github/workflows/ @slilbudget

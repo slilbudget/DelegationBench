@@ -1,6 +1,6 @@
 name: DelegationBench
 description: Test AI-agent delegation chains for authority escalation
-author: sergeyizmailov
+author: slilbudget
 
 branding:
   icon: shield

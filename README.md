@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sergeyizmailov/DelegationBench/main/.github/assets/delegationbench-hero.png" alt="DelegationBench — open crash tests for authority escalation across AI agent handoffs" width="100%">
+  <img src="https://raw.githubusercontent.com/slilbudget/DelegationBench/main/.github/assets/delegationbench-hero.png" alt="DelegationBench — open crash tests for authority escalation across AI agent handoffs" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/sergeyizmailov/DelegationBench/actions/workflows/delegationbench.yml"><img src="https://github.com/sergeyizmailov/DelegationBench/actions/workflows/delegationbench.yml/badge.svg?branch=main" alt="CI"></a>
-  <a href="https://github.com/sergeyizmailov/DelegationBench/security/code-scanning"><img src="https://github.com/sergeyizmailov/DelegationBench/actions/workflows/github-code-scanning/codeql/badge.svg" alt="CodeQL"></a>
+  <a href="https://github.com/slilbudget/DelegationBench/actions/workflows/delegationbench.yml"><img src="https://github.com/slilbudget/DelegationBench/actions/workflows/delegationbench.yml/badge.svg?branch=main" alt="CI"></a>
+  <a href="https://github.com/slilbudget/DelegationBench/security/code-scanning"><img src="https://github.com/slilbudget/DelegationBench/actions/workflows/github-code-scanning/codeql/badge.svg" alt="CodeQL"></a>
   <a href="https://pypi.org/project/delegationbench/"><img src="https://img.shields.io/pypi/v/delegationbench" alt="PyPI"></a>
-  <a href="https://github.com/sergeyizmailov/DelegationBench/releases/latest"><img src="https://img.shields.io/github/v/release/sergeyizmailov/DelegationBench" alt="Latest release"></a>
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>
-  <a href="https://securityscorecards.dev/viewer/?uri=github.com/sergeyizmailov/DelegationBench"><img src="https://api.securityscorecards.dev/projects/github.com/sergeyizmailov/DelegationBench/badge" alt="OpenSSF Scorecard"></a>
+  <a href="https://github.com/slilbudget/DelegationBench/releases/latest"><img src="https://img.shields.io/github/v/release/slilbudget/DelegationBench" alt="Latest release"></a>
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>
+  <a href="https://securityscorecards.dev/viewer/?uri=github.com/slilbudget/DelegationBench"><img src="https://api.securityscorecards.dev/projects/github.com/slilbudget/DelegationBench/badge" alt="OpenSSF Scorecard"></a>
 </p>
 
 <p align="center">
   <a href="#quickstart">Quickstart</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/THREAT_MODEL.md">Threat model</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/scenario-coverage.md">Scenario coverage</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/benchmark-protocol.md">Benchmark protocol</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/external-validation.md">External validation</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/validation-kit.md">Validation kit</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/fuzzing.md">Fuzzing</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/ROADMAP.md">Roadmap</a> ·
-  <a href="https://github.com/sergeyizmailov/DelegationBench/blob/main/CONTRIBUTING.md">Contributing</a>
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/THREAT_MODEL.md">Threat model</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/docs/scenario-coverage.md">Scenario coverage</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/docs/benchmark-protocol.md">Benchmark protocol</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/docs/external-validation.md">External validation</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/docs/validation-kit.md">Validation kit</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/docs/fuzzing.md">Fuzzing</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/ROADMAP.md">Roadmap</a> ·
+  <a href="https://github.com/slilbudget/DelegationBench/blob/main/CONTRIBUTING.md">Contributing</a>
 </p>
 
 # DelegationBench
@@ -59,7 +59,7 @@ python -m pip install delegationbench
 Or install an editable checkout for development:
 
 ```bash
-git clone https://github.com/sergeyizmailov/DelegationBench.git
+git clone https://github.com/slilbudget/DelegationBench.git
 cd DelegationBench
 pip install -e .
 ```
@@ -101,7 +101,7 @@ delegationbench run scenarios/ --defense envelope
 
 Exit code is 0 when every scenario matches its `expect` contract — drop it
 straight into CI (see the [one-command and GitHub Action
-examples](https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/ci-integration.md)).
+examples](https://github.com/slilbudget/DelegationBench/blob/main/docs/ci-integration.md)).
 
 ## At a glance
 
@@ -119,13 +119,13 @@ examples](https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/ci-in
   (allowed actions, max delegation depth, TTL), content stores (docs, emails,
   config), and scripted agent rules that stand in for LLM instruction-following.
 - **Deterministic authorization oracle** — judges seven violation classes over the
-  execution trace (see [THREAT_MODEL.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/THREAT_MODEL.md)):
+  execution trace (see [THREAT_MODEL.md](https://github.com/slilbudget/DelegationBench/blob/main/THREAT_MODEL.md)):
   V1 authority expansion on handoff · V2 confused deputy · V3 depth violation ·
   V4 expired/replayed delegation · V5 origin loss · V6 scope widening via result ·
   V7 principal substitution.
 - **75-scenario corpus** — 38 attacks and 37 benign twins spanning V1–V7 that
   must stay clean (a defense that blocks everything is a failure, not a win).
-  The [coverage matrix](https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/scenario-coverage.md) records the paired
+  The [coverage matrix](https://github.com/slilbudget/DelegationBench/blob/main/docs/scenario-coverage.md) records the paired
   invariant and workflow surface.
 - **Reference defense** — a delegation-envelope guard enforced at the tool
   boundary, outside model reasoning: `--defense envelope` (attenuation-only
@@ -229,7 +229,7 @@ authorized it. Per-agent permission checks miss this; the oracle does not.
 ## Real LangGraph + LLM demo
 
 The deterministic corpus does not need a model or API key. A separate
-[end-to-end demo](https://github.com/sergeyizmailov/DelegationBench/blob/main/examples/langgraph_real_llm_demo.py) connects a real
+[end-to-end demo](https://github.com/slilbudget/DelegationBench/blob/main/examples/langgraph_real_llm_demo.py) connects a real
 OpenAI-compatible open-weight model endpoint to a compiled LangGraph graph,
 executes agent handoffs and tool calls, and evaluates the observed trace with
 DelegationBench:
@@ -252,7 +252,7 @@ decisions.
 ### Expanded violation-class suite
 
 A second harness,
-[langgraph_real_llm_suite.py](https://github.com/sergeyizmailov/DelegationBench/blob/main/examples/langgraph_real_llm_suite.py),
+[langgraph_real_llm_suite.py](https://github.com/slilbudget/DelegationBench/blob/main/examples/langgraph_real_llm_suite.py),
 extends the same LangGraph + adapter path to representative attack/benign
 pairs for V1/V2, V3, V6, and V7. The graphs, adapter wiring, and expected
 oracle classifications are validated offline with a scripted model
@@ -276,7 +276,7 @@ with 10 attack and 10 benign trials each:
 
 Both models read the document and refused its injected cross-agent payment
 instruction in every attack trial. The
-[reviewed raw reports, exact configuration, hashes, and limitations](https://github.com/sergeyizmailov/DelegationBench/tree/main/benchmarks/results)
+[reviewed raw reports, exact configuration, hashes, and limitations](https://github.com/slilbudget/DelegationBench/tree/main/benchmarks/results)
 are versioned in the repository. The same index also contains 80 expanded
 Llama runs across representative V1/V2, V3, V6, and V7 pairs plus a 20-run V3
 follow-up. These focused experiments are not a claim that the entire
@@ -288,7 +288,7 @@ Three developers and security practitioners published attributable validation
 reports with commands, environments, results, and limitations. One explicitly
 reproduced the GitHub Action downstream, and two explicitly confirmed the
 documented CI-gate use case. See the
-[evidence index](https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/external-validation.md) and the linked original issues.
+[evidence index](https://github.com/slilbudget/DelegationBench/blob/main/docs/external-validation.md) and the linked original issues.
 
 ## Repository layout
 
@@ -309,7 +309,7 @@ THREAT_MODEL.md        # formal scope: what we test and what we deliberately don
 Not a prompt-injection scanner, not a taint tracker, not an authorization
 gateway, not a general agent benchmark. Injection is just one delivery
 mechanism; the invariant under test is authority propagation. See
-[THREAT_MODEL.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/THREAT_MODEL.md) §3.
+[THREAT_MODEL.md](https://github.com/slilbudget/DelegationBench/blob/main/THREAT_MODEL.md) §3.
 
 ## Development
 
@@ -321,21 +321,21 @@ delegationbench run scenarios/ --defense envelope
 ```
 
 Contributions welcome — new attack scenarios are the best first contribution.
-See [CONTRIBUTING.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/CONTRIBUTING.md),
-[GOVERNANCE.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/GOVERNANCE.md),
-[CHANGELOG.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/CHANGELOG.md),
-and the [threat model](https://github.com/sergeyizmailov/DelegationBench/blob/main/THREAT_MODEL.md).
+See [CONTRIBUTING.md](https://github.com/slilbudget/DelegationBench/blob/main/CONTRIBUTING.md),
+[GOVERNANCE.md](https://github.com/slilbudget/DelegationBench/blob/main/GOVERNANCE.md),
+[CHANGELOG.md](https://github.com/slilbudget/DelegationBench/blob/main/CHANGELOG.md),
+and the [threat model](https://github.com/slilbudget/DelegationBench/blob/main/THREAT_MODEL.md).
 The parser, envelopes, traces, and oracle are
 fuzzed continuously with ClusterFuzzLite — see
-[docs/fuzzing.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/docs/fuzzing.md).
+[docs/fuzzing.md](https://github.com/slilbudget/DelegationBench/blob/main/docs/fuzzing.md).
 Security issues:
-[SECURITY.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/SECURITY.md)
+[SECURITY.md](https://github.com/slilbudget/DelegationBench/blob/main/SECURITY.md)
 (private reporting, please). For questions, use [GitHub
-Discussions](https://github.com/sergeyizmailov/DelegationBench/discussions) or
-see [SUPPORT.md](https://github.com/sergeyizmailov/DelegationBench/blob/main/SUPPORT.md).
+Discussions](https://github.com/slilbudget/DelegationBench/discussions) or
+see [SUPPORT.md](https://github.com/slilbudget/DelegationBench/blob/main/SUPPORT.md).
 If you use DelegationBench in research, see
-[CITATION.cff](https://github.com/sergeyizmailov/DelegationBench/blob/main/CITATION.cff).
+[CITATION.cff](https://github.com/slilbudget/DelegationBench/blob/main/CITATION.cff).
 
 ## License
 
-Apache-2.0. See [LICENSE](https://github.com/sergeyizmailov/DelegationBench/blob/main/LICENSE).
+Apache-2.0. See [LICENSE](https://github.com/slilbudget/DelegationBench/blob/main/LICENSE).
